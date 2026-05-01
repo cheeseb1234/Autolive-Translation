@@ -1,0 +1,33 @@
+rtt/
+├── __init__.py
+├── __main__.py
+├── cli.py
+├── doctor.py
+├── core/
+│   ├── __init__.py
+│   ├── config.py
+│   └── datatypes.py
+├── capture/
+│   ├── __init__.py
+│   ├── base.py
+│   ├── replay.py
+│   ├── pipewire_portal.py
+│   └── x11_mss.py
+├── ocr/
+│   ├── __init__.py
+│   └── base.py
+├── translation/
+│   ├── __init__.py
+│   └── base.py
+├── tracking/
+│   ├── __init__.py
+│   └── base.py
+├── overlay/
+│   ├── __init__.py
+│   ├── base.py
+│   ├── subtitle_band.py
+│   ├── gtk_layer_shell.py
+│   └── x11_pyside.py
+└── platform/
+    ├── __init__.py
+    └── linux_env.py
