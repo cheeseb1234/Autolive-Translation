@@ -1,6 +1,5 @@
 from dataclasses import dataclass, field
 from typing import Optional, Tuple
-import time
 
 @dataclass
 class FramePacket:

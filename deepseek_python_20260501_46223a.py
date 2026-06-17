@@ -1,6 +1,6 @@
 import toml
 from pathlib import Path
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 
 @dataclass
 class AppConfig:

@@ -1,5 +1,3 @@
-import os
-import subprocess
 from rtt.platform.linux_env import detect_linux_env
 
 def run_doctor():
